@@ -3,61 +3,6 @@
     grid-area: body;
     margin-top: 5rem;
 }
-.general{
-    width:900px;
-    height:945px;
-}
-.FormRegistroProductos {
-    
-    width: 439px;
-    background: #9e9e9e;
-    padding: 30px;
-   
-    border-radius: 4px;
-    color: white;
-    box-shadow: 7px 13px 37px #000;
-    font-weight: 200;
-   
-    height: 267px;
-    margin-left:50px;
- 
-}
-.FormRegistroProductos2 {
-    float: right;
-    width: 190px;
-    margin-right: 50px;
-    background: #9e9e9e;
-    padding: 30px;
-    border-radius: 4px;
-    color: white;
-    box-shadow: 7px 13px 37px #000;
-    height: 266px;
-}
-.FormRegistroProductos3 {
-    margin-top:20px;
-    margin-left: 50px;
-    width: 740px;
-    margin-right: 50px;
-    background: #9e9e9e;
-    padding: 30px;
-    border-radius: 4px;
-    color: white;
-    box-shadow: 7px 13px 37px #000;
-    height: 136px;
-    
-}
-.FormRegistroProductos4 {
-    margin-top: 20px;
-    margin-left: 50px;
-    width: 740px;
-    margin-right: 50px;
-    background: #9e9e9e;
-    padding: 30px;
-    border-radius: 4px;
-    color: white;
-    box-shadow: 7px 13px 37px #000;
-    height: 228px;
-}
 /*
 form {
     width: 40rem;
