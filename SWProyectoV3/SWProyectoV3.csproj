@@ -117,6 +117,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Evaluaciones.aspx" />
+    <Content Include="EvaluacionesPrincipal.aspx" />
+    <Content Include="Img\actividades.png" />
+    <Content Include="Img\ambient.png" />
+    <Content Include="Img\Ambientedecontol.png" />
+    <Content Include="Img\Competente.png" />
+    <Content Include="Img\Diestro.png" />
+    <Content Include="Img\evaluac.jpg" />
+    <Content Include="Img\Experto.png" />
+    <Content Include="Img\Incipiente.png" />
+    <Content Include="Img\novato.png" />
+    <Content Include="Img\seguimiento.png" />
+    <Content Include="Img\sistemasdeinformacion.png" />
+    <Content Include="Img\tiempo.jpg" />
+    <Content Include="Img\valoraciondelriesgo.png" />
     <Content Include="private.aspx" />
     <Content Include="styles\CSS.css" />
     <Content Include="Home.aspx" />
@@ -133,6 +148,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DB\db_connection.cs" />
+    <Compile Include="Evaluaciones.aspx.cs">
+      <DependentUpon>Evaluaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Evaluaciones.aspx.designer.cs">
+      <DependentUpon>Evaluaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EvaluacionesPrincipal.aspx.cs">
+      <DependentUpon>EvaluacionesPrincipal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EvaluacionesPrincipal.aspx.designer.cs">
+      <DependentUpon>EvaluacionesPrincipal.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
